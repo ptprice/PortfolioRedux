@@ -3,13 +3,19 @@ export default function Contact() {
       <div>
         <h1>Contact Page</h1>
         <p>
-          Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-          Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-          mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-          lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-          imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-          in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+          If you're interested in working with me, please get in touch using the
+          form below. I'm always looking for new projects to work on, and I'd
+          love to hear from you!
         </p>
+        <form>
+          <label htmlFor="name">Name:</label>
+          <input type="text" id="name" name="name" />
+          <label htmlFor="email">Email:</label>
+          <input type="email" id="email" name="email" />
+          <label htmlFor="message">Message:</label>
+          <textarea id="message" name="message"></textarea>
+          <button type="submit">Send</button>
+        </form>
       </div>
     );
   }

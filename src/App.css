@@ -40,3 +40,22 @@
 .read-the-docs {
   color: #888;
 }
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #f1f1f1; /* Optional: Add background color */
+  padding: 10px 0; /* Optional: Add padding */
+}
+.main-container {
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 50px; /* Height of the footer */
+}

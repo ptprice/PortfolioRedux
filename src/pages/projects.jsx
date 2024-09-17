@@ -2,14 +2,48 @@ export default function Projects() {
     return (
       <div>
         <h1>Projects Page</h1>
-        <p>
-          Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-          Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-          mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-          lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-          imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-          in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-        </p>
+        <div className="projectMainCard">
+          <a
+            href="https://ptprice.github.io/Payroll-Manager-Site/"
+            target="_blank"
+          >
+            <h3>Project 1</h3>
+          </a>
+          <p>
+            Project 1 is a website I created for a local business. It's a
+            simple, clean design that can be used by the payroll manager.
+          </p>
+          <img className="mainProjectImage" src="" alt="" />
+
+        </div>
+
+       
+        <div className="subProject">
+          
+          <div className="project project2">
+            <a href="https://ptprice.github.io/5-Day-Weather/" target="_blank">
+              <h3>Project 2</h3>
+            </a>
+            <p>
+              Project 2 is a five day weather forecast website I created. It can
+              be used to search for the weather in any city.
+            </p>
+          </div>
+
+          
+          <div className="project project3">
+            <a
+              href="https://ptprice.github.io/Simple-Task-Board/"
+              target="_blank"
+            >
+              <h3>Project 3</h3>
+            </a>
+            <p>
+              Project 3 is a task board website I created. It's a simple, site
+              where you can add, edit, and delete tasks.
+            </p>
+          </div>
       </div>
-    );
+      </div>
+    )
   }
