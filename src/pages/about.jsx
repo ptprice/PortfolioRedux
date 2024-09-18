@@ -1,11 +1,11 @@
 export default function About() {
     return (
-      <div>
+      <div className = "aboutTab">
         <h1>About Me Page</h1>
         <p>
-          Hi, I'm Paul Price. I'm a web developer with a passion for coding and
+          Hi, I am Paul Price. I am a web developer with a passion for coding and
           all things programming, I have been working mainly with creating
-          responsive websites. I'm always looking for new projects to increase
+          responsive websites. I am always looking for new projects to increase
           my skills and experience. If you like what you see, get in touch!
         </p>  
         <p>

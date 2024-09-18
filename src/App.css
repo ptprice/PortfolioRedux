@@ -14,3 +14,43 @@
   color: #888;
 }
 
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.social-links a {
+  color: rgb(152, 157, 93);
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.social-links i {
+  margin-right: 5px;
+}
+
+.social-links a:hover {
+  color: #00aced; /* Example hover color */
+}
+
+p {
+  margin: 5px 0;
+}
+
+.aboutTab {
+  background-color: lemonchiffon;
+}
+
+.contactTab {
+  background-color: lightblue;    
+}
+
+.resumeTab {
+  background-color:lightcyan;
+}
+
+.projectsTab {
+  background-color: lightcoral;
+}

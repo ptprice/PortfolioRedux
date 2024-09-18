@@ -1,6 +1,6 @@
 export default function Projects() {
     return (
-      <div>
+      <div className="projectsTab">
         <h1>Projects Page</h1>
         <div className="projectMainCard">
           <a
@@ -10,7 +10,7 @@ export default function Projects() {
             <h3>Project 1</h3>
           </a>
           <p>
-            Project 1 is a website I created for a local business. It's a
+            Project 1 is a website I created for a local business. It is a
             simple, clean design that can be used by the payroll manager.
           </p>
           <img className="mainProjectImage" src="" alt="" />
@@ -39,7 +39,7 @@ export default function Projects() {
               <h3>Project 3</h3>
             </a>
             <p>
-              Project 3 is a task board website I created. It's a simple, site
+              Project 3 is a task board website I created. It is a simple, site
               where you can add, edit, and delete tasks.
             </p>
           </div>

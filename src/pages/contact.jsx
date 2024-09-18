@@ -1,6 +1,6 @@
 export default function Contact() {
     return (
-      <div>
+      <div className="contactTab">
         <h1>Contact Page</h1>
         <p>
           If you are interested in working with me, please get in touch using the
