@@ -3,8 +3,8 @@ export default function Contact() {
       <div>
         <h1>Contact Page</h1>
         <p>
-          If you're interested in working with me, please get in touch using the
-          form below. I'm always looking for new projects to work on, and I'd
+          If you are interested in working with me, please get in touch using the
+          form below. I am always looking for new projects to work on, and I would
           love to hear from you!
         </p>
         <form>
