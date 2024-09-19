@@ -54,3 +54,21 @@ p {
 .projectsTab {
   background-color: lightcoral;
 }
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #cec0c0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #0725e9;
+  color: white;
+}
+.nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
